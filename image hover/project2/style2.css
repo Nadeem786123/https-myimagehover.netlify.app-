@@ -70,8 +70,8 @@ body{
     z-index: 2;
 
 }
- .box:hover.content img{
-   opacity: 2;
+ .box:hover img{
+   opacity: 0;
 }
 .content h2{
     position: relative;
