@@ -1,1 +1,1 @@
-https://myimagehover.netlify.app/
+https://imagehover12.netlify.app/
