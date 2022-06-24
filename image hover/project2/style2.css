@@ -1,3 +1,4 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap'); */
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +10,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #162052 ;
+    background:#162052; 
+  /* background-image: url("img6.webp"); */
 }
 .box{
     position: relative;
@@ -66,7 +68,7 @@ body{
     height: 100%;
     object-fit: cover;
     transition: 0.5s;
-    pointer-events: none;
+    pointer-events: default;
     z-index: 2;
 
 }
@@ -89,16 +91,17 @@ body{
 .content a{
     position: relative;
     margin-top: 10px;
-    padding: 10 px 20px;
+    padding: 10px 20px;
     background-color: #fff;
     color: black;
     border-radius: 25px;
     font-weight: 500;
     font-size: 1.25em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 0.05em;
     text-decoration: none;
     transition: 0.5s;
+
 }
 .content a:hover{
     letter-spacing: 0.2em;
