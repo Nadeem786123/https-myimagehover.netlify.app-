@@ -33,6 +33,7 @@ body{
     inset: -20px 0px;
 
 }
+
 @keyframes animate {
    100%{
         transform: rotate(360deg);
